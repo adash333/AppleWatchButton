@@ -16,7 +16,10 @@ struct ContentView: View {
             Text(outputText)
                 .padding()
             Button(action: {
+                outputText = "Hi Swift!"
                 
+                print("デバッグテスト")
+                print(outputText)
             }) {
                 /*@START_MENU_TOKEN@*/Text("切り替えボタン")
                     .foregroundColor(Color.white)
